@@ -102,6 +102,60 @@ header p {
   margin-bottom: 1rem;
 }
 
+/* Section: Get In Touch */
+section.get-in-touch {
+  padding: 60px 0;
+  background-color: #f0f6fb;
+}
+
+section.get-in-touch h3 {
+  color: #0096ff;
+  font-size: 1.81rem;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Section: Features */
+section.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 3.25rem;
+  padding: 6rem 0;
+}
+
+section.features .feature-box {
+  background-color: #0096ff;
+  color: #ffffff;
+  padding: 1rem 0.75rem;
+  border-radius: 20px;
+  border: 0;
+}
+
+section.features .feature-box:hover {
+  background-color: #0078cc;
+}
+
+section.features .feature-box .icon-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-bottom: 0.8rem;
+}
+
+section.features .feature-box .icon-text h5 {
+  font-weight: 700;
+  font-size: 0.875rem;
+  line-height: 16px;
+  margin-right: 2rem;
+}
+
+section.features .feature-box p {
+  font-weight: 700;
+  font-size: 0.75rem;
+  line-height: 16px;
+}
+
 /* Miscellaneous */
 .container {
   padding-right: 15px;
