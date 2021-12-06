@@ -1,0 +1,48 @@
+/* Section: Thing To Know */
+section.things-to-know {
+  padding: 6.25rem 0;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 1.82rem;
+  align-items: center;
+}
+
+section.things-to-know::after {
+  content: "";
+  width: 75vh;
+  height: 75vh;
+  background-color: #f1f1f1;
+  border-radius: 478px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: -1;
+}
+
+section.things-to-know h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.38px;
+  text-transform: uppercase;
+  color: #000000;
+  margin-bottom: 1.75rem;
+}
+
+section.things-to-know .feature-paragraph {
+  margin-bottom: 1.25rem;
+}
+
+section.things-to-know .feature-paragraph h4 {
+  font-size: 1.25rem;
+  font-weight: 400;
+  line-height: 28px;
+  color: #0096ff;
+  margin-bottom: 0.25rem;
+}
+
+section.things-to-know .feature-paragraph p {
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 19px;
+}
