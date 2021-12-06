@@ -1,0 +1,69 @@
+/* Section: Services */
+section.services {
+  padding: 4.68rem 0;
+}
+
+section.services h1 {
+  font-weight: 800;
+  font-size: 2.25rem;
+  text-align: center;
+  line-height: 4rem;
+  color: #000000;
+  margin-bottom: 5.07rem;
+}
+
+section.services span {
+  display: block;
+  font-weight: 400;
+}
+
+section.services h2 {
+  text-align: center;
+  color: #000000;
+  font-size: 1.25rem;
+  line-height: 30px;
+}
+
+section.services h2 a {
+  color: #000000;
+  transition: 0.2s;
+}
+section.services h2 a:hover {
+  color: #0096ff;
+  letter-spacing: 1.2px;
+}
+
+section.services .service-boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+section.services .service-box {
+  flex-basis: 27%;
+  margin-bottom: 5.32rem;
+}
+
+section.services .service-boxes .service-box h5 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+section.services .service-boxes .service-box p {
+  font-weight: 400;
+  font-size: 1rem;
+  margin-bottom: 2.5rem;
+  line-height: 26px;
+}
+
+section.services .service-boxes .service-box a {
+  font-weight: 700;
+  font-size: 0.75rem;
+  transition: 0.2s;
+}
+
+section.services .service-boxes .service-box a:hover {
+  letter-spacing: 0.8px;
+}

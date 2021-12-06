@@ -8,6 +8,7 @@
 @import "./_get_in_touch.css";
 @import "./_features.css";
 @import "./_things-to-know.css";
+@import "./_services.css";
 
 :root {
   font-size: 16px;
