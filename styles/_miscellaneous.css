@@ -1,0 +1,40 @@
+/* Miscellaneous */
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+button.btn {
+  padding: 1.0625rem 2rem;
+  background-color: #0096ff;
+  border: none;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 600;
+  font-family: "Manrope", sans-serif;
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+}
+
+button.btn:hover {
+  background-color: #4db6ff;
+  cursor: pointer;
+}

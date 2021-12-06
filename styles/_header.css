@@ -1,0 +1,48 @@
+/* Header */
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+
+header .header-image-banner {
+  position: static;
+}
+
+header .header-image-banner::after {
+  content: "";
+  width: 80vh;
+  height: 80vh;
+  background-color: #0096ff;
+  border-radius: 50%;
+  position: absolute;
+  right: 0px;
+  top: -50px;
+  z-index: -1;
+}
+
+header h3 {
+  font-size: 25px;
+  color: #0096ff;
+  font-weight: 400;
+  line-height: 34.15px;
+  letter-spacing: -0.38px;
+  margin-bottom: 0.9375rem;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  line-height: 42px;
+  font-weight: 800;
+  color: #18191f;
+  margin-bottom: 1rem;
+}
+
+header p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 32px;
+  color: #18191f;
+  margin-bottom: 1rem;
+}
