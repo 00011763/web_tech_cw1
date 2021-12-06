@@ -1,0 +1,51 @@
+/* Section: Dentists */
+section.dentists h1 {
+  margin-bottom: 2.5rem;
+}
+
+section.dentists {
+  padding: 4.69rem 0;
+}
+
+section.dentists .dentist-boxes {
+  display: flex;
+  justify-content: space-between;
+}
+
+section.dentists .dentist-box {
+  max-width: 274px;
+}
+
+section.dentists .dentist-box .avatar,
+section.dentists .dentist-box .dentist-details {
+  text-align: center;
+}
+
+section.dentists .dentist-box .avatar {
+  margin-bottom: 1rem;
+}
+
+section.dentists .dentist-box h4 {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 28px;
+  letter-spacing: -0.38px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section.dentists .dentist-box h5 {
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 22px;
+  letter-spacing: -0.38px;
+  text-transform: uppercase;
+  color: #0096ff;
+}
+
+section.dentists .dentist-box .social-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 1.44rem;
+}
