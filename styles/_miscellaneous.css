@@ -38,3 +38,7 @@ button.btn:hover {
   background-color: #4db6ff;
   cursor: pointer;
 }
+
+.max-width-sm {
+  max-width: 540px;
+}

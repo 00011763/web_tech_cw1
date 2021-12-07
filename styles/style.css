@@ -10,6 +10,7 @@
 @import "./_things-to-know.css";
 @import "./_services.css";
 @import "./_dentists.css";
+@import "./_testimonials.css";
 
 :root {
   font-size: 16px;
@@ -34,97 +35,65 @@ section h1 {
   color: #18191f;
 }
 
-section.testimonials {
+section p.subheader {
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 32px;
+  text-align: center;
+  color: #18191f;
+  margin: 0 auto;
+}
+
+section.blog {
   padding: 5rem 0;
 }
 
-section.testimonials p.subheader {
-  font-weight: 400;
-  font-size: 1.125rem;
-  line-height: 32px;
-  text-align: center;
-  color: #18191f;
-}
-
-/* section.testimonials .slider-container {
-  position: relative;
-  width: 50rem;
-  min-width: 21.88rem;
-  min-height: 15.63rem;
-  padding-bottom: 40px;
-} */
-
-section.testimonials .slider-wrapper {
+section.blog .posts {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 3.75rem;
-  padding-top: 2.5rem;
+  column-gap: 3.25rem;
+  margin-top: 2.7rem;
 }
 
-section.testimonials .testimonial {
-  transition: all 0.5s;
+section.blog .posts .post > img {
+  margin-bottom: 0.5rem;
 }
 
-section.testimonials .testimonial.active,
-section.testimonials .testimonial:hover {
-  margin-top: -40px;
+section.blog .posts .post .post-data {
+  margin-bottom: 0.25rem;
 }
 
-section.testimonials .testimonial .testimonial-details {
-  padding: 2rem 2.5rem;
-  border-radius: 10px;
-  background-color: #ffffff;
-  box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
-  position: relative;
-  margin-bottom: 2.5rem;
-}
-
-section.testimonials .testimonial .testimonial-details::after {
-  content: "";
-  width: 0;
-  height: 0;
-  /* Triangle effect */
-  border-left: 1.25rem solid transparent;
-  border-right: 1.25rem solid transparent;
-  border-top: 1.5rem solid #ffffff;
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-
-section.testimonials .testimonial .testimonial-details h2 {
-  font-size: 1.5rem;
-  font-weight: 600;
-  line-height: 32px;
-  text-align: center;
-  color: #18191f;
-}
-
-section.testimonials .testimonial .testimonial-details p {
+section.blog .posts .post .post-data p {
   font-weight: 400;
-  font-size: 0.875rem;
-  line-height: 24px;
-  text-align: center;
-  color: #18191f;
+  font-size: 0.75rem;
+  line-height: 22px;
+  color: #999999;
 }
 
-section.testimonials .testimonial .testimonial-thumb {
-  text-align: center;
+section.blog .posts .post .post-data p .author {
+  padding-right: 1.75rem;
+  padding-left: 0;
+  color: #2296F9;
 }
 
-section.testimonials .testimonial .testimonial-thumb h3 {
+section.blog .posts .post .post-data p span {
+  padding: 0 0.625rem;
+}
+
+section.blog .posts .post .post-data p span:not(:last-child) {
+  border-right: 1px solid #EEEEEE;
+}
+
+section.blog .posts .post .post-content h3 {
   font-weight: 700;
   font-size: 1.125rem;
-  line-height: 28px;
-  color: #18191f;
-  margin-top: 0.5rem;
+  line-height: 26px;
 }
 
-section.testimonials .testimonial .testimonial-thumb h4 {
-  font-size: 0.875rem;
+section.blog .posts .post .post-content p {
   font-weight: 400;
-  line-height: 24px;
-  color: #474a57;
+  font-size: 0.875rem;
+  line-height: 21px;
+  color: #666666;
 }
