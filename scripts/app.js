@@ -1,13 +1,7 @@
-const testimonials = [...document.querySelectorAll('.testimonial')]
+import "./testimonials.js"
+import { footer } from "./components/footer.js"
+import { navBar } from "./components/navbar.js"
 
-const current = 1
-
-testimonials.forEach((item, i) => {
-  item.addEventListener('mouseover', () => {
-    testimonials[current].classList.remove('active')
-  })
-
-  item.addEventListener('mouseout', () => {
-    testimonials[current].classList.add('active')
-  })
-})
+const body = document.querySelector("body")
+body.prepend(navBar)
+body.append(footer)
