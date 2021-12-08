@@ -1,0 +1,102 @@
+section.about-header {
+  background-color: #0096FF;
+  padding: 2.69rem 0;
+}
+
+section.about-header h2 {
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 33.5px;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+section.about-us {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem 0;
+}
+
+section.about-us h1 {
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 64px;
+  text-align: left;
+}
+
+section.about-us h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+section.about-us p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: #18191f;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+section.best-since {
+  background-color: #F0F6FB;
+  max-height: 435px;
+  margin-bottom: 9.25rem;
+}
+
+section.best-since .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+section.best-since h1 {
+  text-align: left;
+  font-weight: 700;
+}
+
+section.best-since p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: #18191f;
+  font-weight: 400;
+  margin-top: 1rem;
+}
+
+section.best-since .text {
+  margin-top: -2.625rem;
+}
+
+section.best-since img {
+  margin-top: -2.625rem;
+  margin-left: 1.75rem;
+}
+
+section.clinic-departments {
+  padding-bottom: 69px;
+}
+
+section.clinic-departments .departments {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  column-gap: 3rem;
+  margin-top: 4.5rem;
+}
+
+section.clinic-departments .departments .department h3 {
+  font-size: 0.875rem;
+  font-weight: 700;
+  line-height: 16px;
+  color: #2296F9;
+}
+
+section.clinic-departments .departments .department p {
+  font-size: 0.75rem;
+  font-weight: 300;
+  line-height: 16px;
+  margin-top: 0.75rem;
+}
+

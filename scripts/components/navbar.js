@@ -5,7 +5,7 @@ export const navBar = createElementFromHtml(`
   <div class="container">
     <ul>
       <li class="nav-item">
-        <a href="#">About</a>
+        <a href="/about.html">About</a>
       </li>
       <li class="nav-item">
         <a href="#">Doctor</a>
