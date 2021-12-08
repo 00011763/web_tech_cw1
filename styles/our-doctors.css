@@ -1,0 +1,45 @@
+section.doctors-header {
+  background-color: #0096ff;
+  padding: 2.69rem 0;
+}
+
+section.doctors-header h2 {
+  color: #ffffff;
+  font-weight: 700;
+  text-align: center;
+  line-height: 33.5px;
+  font-size: 1.75rem;
+  margin-bottom: 0.75rem;
+}
+
+section.our-doctors {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4.5rem 0;
+}
+
+section.our-doctors .text {
+  margin-left: 56px;
+}
+
+section.our-doctors h1 {
+  font-size: 1.875rem;
+  font-weight: 800;
+  line-height: 64px;
+  text-align: left;
+}
+
+section.our-doctors h2 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  line-height: 64px;
+}
+
+section.our-doctors p {
+  font-size: 1rem;
+  line-height: 26px;
+  color: #18191f;
+  font-weight: 400;
+  margin-top: 1rem;
+}

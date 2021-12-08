@@ -8,7 +8,7 @@ export const navBar = createElementFromHtml(`
         <a href="/about.html">About</a>
       </li>
       <li class="nav-item">
-        <a href="#">Doctor</a>
+        <a href="/doctors.html">Doctor</a>
       </li>
       <li class="nav-item">
         <a href="#">Blog</a>
