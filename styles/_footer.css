@@ -89,6 +89,8 @@ footer .newsletter .input-group input {
   width: 100%;
   outline: none;
   border: 1px solid #ffffff;
+  border-radius: 0;
+  background-color: #fff;
 }
 
 footer .newsletter .input-group {
