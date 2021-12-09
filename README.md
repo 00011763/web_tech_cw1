@@ -2,11 +2,13 @@
 **Westminster International University in Tashkent**
 
 ## Brief info
-**Module Name**: Web Technology
-**Module Code**: 4BUIS011C-n
-**Student ID**: 00011763
-**Lecturer**: Bunyod Khoshimkhujayev
+**Module Name**: Web Technology <br>
+**Module Code**: 4BUIS011C-n <br>
+**Student ID**: 00011763 <br>
+**Lecturer**: Bunyod Khoshimkhujayev <br>
+**Deadline**: 09.12.2021 23:59
 
+GitHub Link: (https://github.com/00011763/web_tech_cw1) <br>
 Checkout website on this link 👉 [Demo](https://web-tech-00011763.netlify.app/)
 
 > This project was created to fulfill the requirements of Web Technology module. 
