@@ -11,9 +11,6 @@ export const navBar = createElementFromHtml(`
         <a href="/doctors.html">Doctor</a>
       </li>
       <li class="nav-item">
-        <a href="#">Blog</a>
-      </li>
-      <li class="nav-item">
         <a href="/contacts.html">Contact</a>
       </li>
     </ul>
