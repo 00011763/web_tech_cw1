@@ -17,7 +17,12 @@ footer .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  column-gap: 6.25rem;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+footer .container * {
+  flex-basis: 22%;
 }
 
 footer .main-info {
@@ -106,4 +111,10 @@ footer .newsletter .input-group button {
   position: absolute;
   right: 3px;
   top: 1px;
+}
+
+@media (max-width: 992px) {
+  footer .container * {
+    flex-basis: 46%;
+  }
 }

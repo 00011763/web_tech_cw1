@@ -1,0 +1,23 @@
+[
+  {
+    "author": "Jane Cooper",
+    "avatar": "https://i.pravatar.cc/56?img=1",
+    "position": "Marketing manager at ABC",
+    "title": "Great service, painless treatment",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. "
+  },
+  {
+    "author": "John Doe",
+    "avatar": "https://i.pravatar.cc/56?img=2",
+    "position": "CEO at ABC corporation",
+    "title": "Professional service by dentists",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. "
+  },
+  {
+    "author": "Michael White",
+    "avatar": "https://i.pravatar.cc/56?img=3",
+    "position": "CEO at XYZ corporation",
+    "title": "Convenient, and Reasonable price",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor neque sed imperdiet nibh lectus feugiat nunc sem. "
+  }
+]

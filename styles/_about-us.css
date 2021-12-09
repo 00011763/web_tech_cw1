@@ -1,5 +1,5 @@
 section.about-header {
-  background-color: #0096FF;
+  background-color: #0096ff;
   padding: 2.69rem 0;
 }
 
@@ -16,7 +16,24 @@ section.about-us {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
   padding: 4.5rem 0;
+  text-align: left;
+}
+
+section.about-us > * {
+  flex-basis: 46%;
+}
+
+@media (max-width: 1200px) {
+  section.about-us {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.about-us h1 {
+    text-align: center !important;
+  }
 }
 
 section.about-us h1 {
@@ -41,7 +58,7 @@ section.about-us p {
 }
 
 section.best-since {
-  background-color: #F0F6FB;
+  background-color: #f0f6fb;
   max-height: 435px;
   margin-bottom: 9.25rem;
 }
@@ -50,6 +67,33 @@ section.best-since .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
+}
+
+section.best-since .container > * {
+  flex-basis: 46%;
+}
+
+@media (max-width: 1200px) {
+  section.best-since {
+    max-height: none;
+  }
+  section.best-since .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  section.best-since h1 {
+    text-align: center !important;
+  }
+
+  section.best-since .container img,
+  section.best-since .container .text {
+    margin: 0;
+  }
+  section.best-since .container .text {
+    margin-bottom: 2rem;
+  }
 }
 
 section.best-since h1 {
@@ -82,15 +126,27 @@ section.clinic-departments .departments {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  column-gap: 3rem;
+  /* column-gap: 3rem; */
   margin-top: 4.5rem;
+  flex-wrap: wrap;
+  row-gap: 2rem;
+}
+
+section.clinic-departments .departments .department {
+  flex-basis: 20%;
+}
+
+@media (max-width: 768px) {
+  section.clinic-departments .departments .department {
+    flex-basis: 46%;
+  }
 }
 
 section.clinic-departments .departments .department h3 {
   font-size: 0.875rem;
   font-weight: 700;
   line-height: 16px;
-  color: #2296F9;
+  color: #2296f9;
 }
 
 section.clinic-departments .departments .department p {
@@ -99,4 +155,3 @@ section.clinic-departments .departments .department p {
   line-height: 16px;
   margin-top: 0.75rem;
 }
-

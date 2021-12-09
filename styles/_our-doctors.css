@@ -17,10 +17,28 @@ section.our-doctors {
   justify-content: space-between;
   align-items: center;
   padding: 4.5rem 0;
+  flex-wrap: wrap;
+}
+
+section.our-doctors > * {
+  flex-basis: 46%;
 }
 
 section.our-doctors .text {
   margin-left: 56px;
+}
+
+@media (max-width: 991px) {
+  section.our-doctors {
+    flex-direction: column;
+    text-align: center;
+  }
+  section.our-doctors h1 {
+    text-align: center !important;
+  }
+  section.our-doctors .text {
+    margin-left: 0;
+  }
 }
 
 section.our-doctors h1 {
