@@ -1,7 +1,6 @@
 # Web Technology Module CW1
 **Westminster International University in Tashkent**
 
-![enter image description here](https://lrc.wiut.uz/Content/logo2.png)
 ## Brief info
 **Module Name**: Web Technology
 **Module Code**: 4BUIS011C-n
