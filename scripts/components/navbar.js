@@ -3,7 +3,7 @@ import { createElementFromHtml } from "../functions.js"
 export const navBar = createElementFromHtml(`
 <nav class="nav">
   <div class="container">
-    <ul>
+    <ul class="nav-items">
       <li class="nav-item">
         <a href="/about.html">About</a>
       </li>
@@ -19,8 +19,9 @@ export const navBar = createElementFromHtml(`
     </ul>
     <div class="brand-logo">
       <a href="/"><img src="images/logo.png" alt="icon" /></a>
+      <img class="hamburger" src="images/hamburger.png" alt="">
     </div>
-    <ul>
+    <ul class="social-links">
       <li>
         <a href="#"
           ><img src="images/social_icons/Instagram.png" alt=""

@@ -7,8 +7,29 @@ section.blog .posts {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  column-gap: 3.25rem;
+  /* column-gap: 3.25rem; */
   margin-top: 2.7rem;
+  flex-wrap: wrap;
+}
+
+section.blog .posts .post {
+  flex-basis: 27%;
+}
+
+@media (max-width: 1200px) {
+  section.blog .posts {
+    justify-content: space-around;
+    row-gap: 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  section.blog .posts {
+    flex-direction: column;
+  }
+  section.blog .posts .post {
+    max-width: 356px;
+  }
 }
 
 section.blog .posts .post > img {
@@ -29,7 +50,7 @@ section.blog .posts .post .post-data p {
 section.blog .posts .post .post-data p .author {
   padding-right: 1.75rem;
   padding-left: 0;
-  color: #2296F9;
+  color: #2296f9;
 }
 
 section.blog .posts .post .post-data p span {
@@ -37,7 +58,7 @@ section.blog .posts .post .post-data p span {
 }
 
 section.blog .posts .post .post-data p span:not(:last-child) {
-  border-right: 1px solid #EEEEEE;
+  border-right: 1px solid #eeeeee;
 }
 
 section.blog .posts .post .post-content h3 {

@@ -9,6 +9,64 @@ nav .container {
   justify-content: space-between;
   align-items: center;
 }
+
+nav .container .brand-logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav .hamburger {
+  display: none;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+nav .hamburger:hover {
+  cursor: pointer;
+  background-color: rgba(80, 80, 80, 0.2);
+}
+
+@media (max-width: 992px) {
+  nav .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 768px) {
+  nav .container {
+    flex-direction: column;
+    row-gap: 2rem;
+  }
+  nav .container .brand-logo {
+    order: 1;
+  }
+  nav .container ul.nav-items {
+    order: 2;
+  }
+  nav .container ul.social-links {
+    order: 3;
+  }
+
+  nav .container .brand-logo,
+  nav .container ul {
+    width: 100%;
+  }
+
+  nav .container > :not(:nth-child(2)) {
+    display: none;
+  }
+  nav .hamburger {
+    display: block;
+  }
+}
+
+@media (max-width: 768px) {
+  nav.responsive .container ul {
+    display: block;
+  }
+}
+
 nav ul {
   list-style-type: none;
   margin: 0;

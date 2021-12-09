@@ -6,6 +6,16 @@ header {
   height: 90vh;
 }
 
+@media (max-width: 992px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+  header .header-image-banner::after {
+    display: none;
+  }
+}
+
 header .header-image-banner {
   position: static;
 }

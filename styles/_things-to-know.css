@@ -4,7 +4,18 @@ section.things-to-know {
   display: flex;
   justify-content: space-between;
   column-gap: 1.82rem;
+  row-gap: 2rem;
   align-items: center;
+}
+
+@media (max-width: 992px) {
+  section.things-to-know {
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  section.things-to-know h2 {
+    text-align: center;
+  }
 }
 
 section.things-to-know::after {

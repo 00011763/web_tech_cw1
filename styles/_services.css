@@ -35,6 +35,18 @@ section.services .service-boxes {
   flex-wrap: wrap;
 }
 
+@media (max-width: 768px) {
+  section.services .service-boxes .service-box {
+    flex-basis: 42%;
+  }
+}
+
+@media (max-width: 490px) {
+  section.services .service-boxes {
+    flex-direction: column;
+  }
+}
+
 section.services .service-box {
   flex-basis: 27%;
   margin-bottom: 5.32rem;
