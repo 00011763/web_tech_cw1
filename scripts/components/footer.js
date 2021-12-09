@@ -11,6 +11,13 @@ export const footer = createElementFromHtml(`
         industry. Lorem Ipsum has been the industry's standard dummy text
         ever since the 1500s,
       </p>
+      <p style="margin-top: 16px">
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">
+            <img style="border:0;width:88px;height:31px"
+                src="https://jigsaw.w3.org/css-validator/images/vcss"
+                alt="Valid CSS!" />
+        </a>
+      </p>
     </article>
     <article class="contact-info">
       <div class="entry">
